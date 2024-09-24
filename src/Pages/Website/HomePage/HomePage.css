@@ -1,0 +1,12 @@
+.hand{
+    background-image: url("../../../Assets/images/emilia.avif");
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+ 
+}
+
+.boxshadow{
+    box-shadow: 10px 10px 10px  #803D3B inset !important
+}
+

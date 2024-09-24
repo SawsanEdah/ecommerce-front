@@ -1,0 +1,37 @@
+.navy{
+  box-shadow: 10px 10px 10px  #803D3B inset !important;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index:1000;
+}
+.category-title{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.category-title:hover{
+  color: #803D3B !important;
+}
+
+.custom-search{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+.custom-search:focus{
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+border: rgba(0, 0, 0, 0.1) !important;
+outline: rgba(0, 0, 0, 0.1) !important;
+}
+
+.totaleItems{
+  width: 30px;
+    height: 30px;
+    background-color:  #803D3B;
+   text-align: center;
+   border-radius: 50%;
+   line-height: 30px;
+  
+}

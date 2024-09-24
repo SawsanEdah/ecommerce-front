@@ -1,0 +1,57 @@
+/*Globale Rules*/
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif !important;
+    padding-top: 155px;
+    
+}
+
+@media (min-width: 768px ){
+    .dashboard{
+        margin-top: -45px;
+    }
+}
+@media(max-width : 767px){
+    .dashboard{
+        margin-top: -45px;
+    }
+}
+@media (max-width: 375px) {
+    body{
+        padding-top: 300px;
+       
+    }
+    h1{
+        text-align: center;
+    }
+    
+    .dashboard{
+        margin-top: -190px;
+    }
+}
+
+
+.container{
+    margin: 0 auto;
+}
+
+.h-100{
+    height: 100vh;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.row .col-12{
+    width: 100%;
+}
+
+.row .col-6{
+    width: 50%;
+}
